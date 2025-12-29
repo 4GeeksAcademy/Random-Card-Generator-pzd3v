@@ -28,11 +28,11 @@ function randomCard() {
   console.log(`Tu carta es: ${randomNumber} de ${randomSuit}`);
 }
 
-/* window.onload = function () {
-  //write your code here
-randomCard()
-  
-}; */
+const cardHead = document.getElementById("cardHead")
+const cardCenter = document.getElementById("cardCenter")
+const cardFooter = document.getElementById("cardFooter")
+
+
 
 const buttonCharge = document.getElementById("charge")
 buttonCharge.addEventListener("click",randomCard)
